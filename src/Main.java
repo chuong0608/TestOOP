@@ -6,15 +6,15 @@ public class Main {
         SinhVien sinhVien2=new SinhVien(2,"Hưng",24,6);
         SinhVien sinhVien3=new SinhVien(3,"Sơn",27,9);
         SinhVien sinhVien4=new SinhVien(4,"Thiên",20,5);
-        qL.Them(sinhVien1);
-        qL.Them(sinhVien2);
-        qL.Them(sinhVien3);
-        qL.Them(sinhVien4);
-        qL.Print();
+        qL.them(sinhVien1);
+        qL.them(sinhVien2);
+        qL.them(sinhVien3);
+        qL.them(sinhVien4);
+        qL.print();
         SinhVien sinhVien5=new SinhVien(1,"Anh",20,8);
-        qL.Sua("Huy",sinhVien5);
-        qL.Print();
-        System.out.println(qL.TimKiem(sinhVien3.getTen()));
+        qL.sua("Huy",sinhVien5);
+        qL.print();
+        System.out.println(qL.timKiem(sinhVien3.getTen()));
     }
 
 
