@@ -1,5 +1,5 @@
 public class QuanLySinhVien extends SinhVien implements QuanLy<SinhVien> {
-    private SinhVien [] danhSach=new SinhVien[4];
+    private SinhVien []   danhSach=new SinhVien[4];
     private int size=0;
 
     @Override
